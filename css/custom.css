@@ -1,0 +1,82 @@
+body {
+    background-color: #ECECEC;
+}
+
+.navbar {
+    height: 120px;
+}
+
+.navbar .navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 5%;
+}
+
+.navbar .nav-item {
+
+    margin-right: 5px;
+    margin-left: 5px;
+    min-width: 80px;
+    text-align: center;
+    color: white;
+}
+
+.navbar .active {
+    background-color: #E6E9ED;
+}
+
+.navbar .nav-item:hover {
+    background-color: #F5F7FA;
+}
+
+.navbar .nav-item a {
+    color: black;
+
+}
+
+.navbar .nav-link {
+
+}
+
+.profileTop .avatarContainerTop {
+    float: left;
+}
+
+.infoContainerTop {
+    margin-top: 15px;
+}
+
+.infoContainerTop span {
+    font-weight: bold;
+}
+
+.infoContainerTop a {
+    text-decoration: none;
+    font-size: small;
+}
+
+.profileTop .avatarTop {
+    width: 75px;
+
+}
+
+
+
+/*
+---------------------------------------------
+END NAVBAR
+---------------------------------------------
+
+
+
+---------------------------------------------
+START CONTENTS
+---------------------------------------------
+ */
+
+.tasks {
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
