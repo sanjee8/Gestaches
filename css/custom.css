@@ -152,6 +152,32 @@ START CONTENTS
     bottom: 10px;
 }
 
+
+.collabSelected {
+    background-color: #656D78;
+    color: white;
+    text-decoration: none;
+    padding-left: 3px;
+    border: 0;
+    margin-right: 5px;
+}
+
+.collabSelected i {
+    color: #AAB2BD;
+    margin-left: 5px;
+
+}
+
+.collabSelected:hover i {
+    color: #656D78;
+}
+
+.collabSelected:hover {
+    color: white;
+    background-color: #AAB2BD;
+}
+
+
 /*
 ---------------------------------------------
 TESTS
