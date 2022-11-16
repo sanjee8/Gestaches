@@ -1,6 +1,15 @@
 body {
     background-color: #ECECEC;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    min-height:100vh;
 }
+
+/*
+---------------------------------------------
+START NAVBAR
+---------------------------------------------
+*/
 
 .navbar {
     height: 120px;
@@ -39,6 +48,14 @@ body {
 
 }
 
+
+@media only screen and (max-width: 800px) {
+    .profileTop {
+        display: none;
+    }
+}
+
+
 .profileTop .avatarContainerTop {
     float: left;
 }
@@ -68,15 +85,80 @@ body {
 END NAVBAR
 ---------------------------------------------
 
+---------------------------------------------
+START FOOTER
+---------------------------------------------
 
+*/
+footer{
+    padding:10px;
+    background:white;
+
+    font-size: small;
+
+
+}
+/*
+
+---------------------------------------------
+END FOOTER
+---------------------------------------------
 
 ---------------------------------------------
 START CONTENTS
 ---------------------------------------------
  */
 
+
 .tasks {
     background-color: white;
     padding: 20px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-right: 35px;
+}
+
+.side-tasks {
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 20px;
+}
+
+.task-pending {
+
+}
+
+.task-link {
+    text-decoration: none;
+}
+
+.task-link:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #F5F7FA;
+}
+
+.task-icon {
+    float: left;
+    margin-right: 20px;
+}
+
+
+.new-task {
+    float: right;
+}
+
+.see-more {
+    position: absolute;
+    bottom: 10px;
+}
+
+/*
+---------------------------------------------
+TESTS
+---------------------------------------------
+*/
+
+
+.testbg {
+    background-color: red;
 }
